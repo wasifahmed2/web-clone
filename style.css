@@ -296,22 +296,108 @@ nav .icon {
     width: 40px;
 }
 .theme-icon .purchase {
-    height: 4%;
-    width: 11%;
-    background-color: #1D6BC5;
+    height: 6%;
+    width: 12%;
+    background-color: #454545;
     color: #fff;
     position: fixed;
-    top: 85%;
+    top: 80%;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 4px;
     right: 85%;
-    padding-top: 2px;
-    
+    padding-top: 9px;
+    border: none;
+    font-weight: bold;
 }
-
-
-.theme-icon{
+.theme-icon .related{
+    height: 6%;
+    width: 12%;
+    background-color:#312a2a;
+    color: #fff;
+    position: fixed;
+    top: 88%;
+    text-align: center;
+    right: 85%;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    padding-top: 9px;
+}
+.page4{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.detailed{
+    height: 100%;
+    width: 40%;
+    margin-left: 10%;
+    /* display: flex; */
+    /* text-align: center; */
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 130px;
+    gap: 30px;
+}
+.detailed p{
+     line-height: 30px;
+     margin-top: 30px;
+     font-size: large;
+}
+.detailed button{
+    height: 11%;
+    width: 17%;
+    margin-top: 25px;
+    color: #1D6BC5;
+    border: 1px solid#1D6BC5;
+}
+.tyre-img{
+    height: 100%;
+    width: 50%;
+}
+.tyre-img img{
     height: 100%;
     width: 100%;
-
+}
+.page5{
+    height: 80%;
+    width: 100%;
+    display: flex;
+}
+.engine-img{
+    height: 100%;
+    width: 50%;
+}
+.engine-img img{
+    height: 100%;
+    width: 100%;
+}
+.card{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.card-1{
+    border: 2px solid black;
+    height: 45%;
+    width: 40%;
+    align-items: center;
+    margin: 150px auto;
+}
+.card-1 img{
+    margin-left: 100px;
+    margin-top:40px ;
+}
+.card-1 h1{
+    margin-left: 90px;
+}
+.card-1 p{
+    border-top: 2px solid black;
+    height: 10px;
+    width: 100%;
+    color:black;
+    margin-top: 40px;
+    margin-right: 30px;
+    text-align: center;
+    padding-top: 10px;
 }
