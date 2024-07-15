@@ -555,3 +555,98 @@ nav .icon {
     color: #fff;
     border: 3px solid #fff ;
 }
+.page9{
+    height: 40%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+.page10{
+    height: 90%;
+    width: 100%;
+    background-color: #262626;
+    display: flex;
+}
+.map-location{
+    height: 100%;
+    width: 50%;
+    background-color: #1d28c5;
+}
+.map-location img{
+    height: 100%;
+    width: 100%;
+}
+.form{
+    height: 100%;
+    width: 50%;
+    background-color: #426614;
+    display: flex;
+    background-image: url(./assets/pricing_style1_background.jpg);
+    background-position: right;
+}
+form{
+    margin-top: 115px;
+    margin-left: 60px;
+    color: #fff;
+}
+form input{
+    height: 50px;
+    width: 230px;
+    margin-left: 20px;
+    margin: 20px;
+    border-radius: 8px ;
+    border: none;
+    font-weight: 800;
+    padding-left: 20px;
+    color: #fff;
+    background-color: rgb(63, 56, 56);
+}
+form h1{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size:45px;
+}
+.last-inp{
+    height: 50px;
+    width: 500px;
+}
+form button{
+    height: 10%;
+    width: 20%;
+    margin-top: 20px;
+    margin-left: 200px;
+    background-color: #1D6BC5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.page11{
+    height: 20%;
+    width: 100%;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:150px ;
+}
+.icons-ul{
+    display: flex;
+    gap: 20px;
+    list-style: ;
+}
+.copyright{
+    display: flex;
+    color: #fff;
+    padding-left: 500px ;
+}
